@@ -7,7 +7,8 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
-    background: rgb(20, 20, 20);
+    background: var(--window-background);
+    color: var(--text-primary);
     overflow: hidden;
     user-select: none;
     margin: 0;
