@@ -90,3 +90,14 @@
 .animate-slide-down {
     animation: slideInDown var(--animation-normal) ease-out;
 }
+
+@media (prefers-color-scheme: light) {
+    @keyframes flashOut {
+        0% {
+            background: rgba(0, 0, 0, 0.1);
+        }
+        100% {
+            background: transparent;
+        }
+    }
+}
