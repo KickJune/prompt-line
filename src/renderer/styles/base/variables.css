@@ -1,6 +1,7 @@
 /* CSS Custom Properties */
 :root {
     /* Colors */
+    --window-background: rgb(20, 20, 20);
     --bg-primary: rgb(20, 20, 20);
     --bg-secondary: rgba(255, 255, 255, 0.05);
     --bg-tertiary: rgba(255, 255, 255, 0.1);
@@ -37,4 +38,19 @@
     --font-size-md: 13px;
     --font-size-lg: 14px;
     --font-size-xl: 16px;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --window-background: #f5f5f7;
+        --bg-primary: #ffffff;
+        --bg-secondary: rgba(0, 0, 0, 0.03);
+        --bg-tertiary: rgba(0, 0, 0, 0.05);
+        --text-primary: #1c1c1e;
+        --text-secondary: rgba(28, 28, 30, 0.7);
+        --text-tertiary: rgba(28, 28, 30, 0.45);
+        --border-primary: rgba(0, 0, 0, 0.1);
+        --border-secondary: rgba(0, 0, 0, 0.18);
+        --accent-gray: rgba(128, 128, 128, 0.35);
+    }
 }
