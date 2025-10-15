@@ -48,3 +48,9 @@
     border-radius: 2px;
     font-weight: bold;
 }
+
+@media (prefers-color-scheme: light) {
+    .search-overlay {
+        background: rgba(255, 255, 255, 0.95);
+    }
+}
