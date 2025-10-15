@@ -56,3 +56,23 @@
     background: rgba(128, 128, 128, 1.0);
     transform: scale(0.95);
 }
+
+@media (prefers-color-scheme: light) {
+    .search-button:hover {
+        color: rgba(28, 28, 30, 0.85);
+    }
+
+    .search-button.active {
+        background: rgba(0, 0, 0, 0.08);
+        color: rgba(28, 28, 30, 0.9);
+    }
+
+    .search-close:hover {
+        background: rgba(128, 128, 128, 0.3);
+        color: rgba(28, 28, 30, 0.85);
+    }
+
+    .search-close:active {
+        background: rgba(128, 128, 128, 0.4);
+    }
+}
